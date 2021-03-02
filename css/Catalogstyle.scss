@@ -952,7 +952,7 @@ td {
   }
 }
 
-.additionalGoods__promo-icon {
+.additionalGoods__icon {
   fill: #ffffff;
   margin: 58px 101px 48px 101px;
 
@@ -963,7 +963,7 @@ td {
     margin: 40px 81px 46px 86px;
   }
 }
-.additionalGoods__promo-text {
+.additionalGoods__text {
   margin: 0px 58px 43px 58px;
   display: inline-block;
   font-family: Arial;
@@ -1188,21 +1188,12 @@ td {
   }
 }
 
-.social-list__icon {
+.footer__icon {
   fill: #666;
   &:hover, //измен цвета при наведении 
  &:active {
     fill: #68b738;
   }
-}
-
-.page-footer__title {
-  font-family: Arial;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 18px;
-  color: #444444, 100%;
 }
 
 .develop__link {

@@ -2,10 +2,7 @@ var sliderBefore = document.querySelector(".image--before"); //находим im
 var sliderAfter = document.querySelector(".image--after"); //находим img after
 let range = document.querySelector(".demo__range"); //
 let slider = document.querySelector(".slider__range");
-//let range2 = document.querySelector(".rangeBig"); //
-//var before = range2.style.setProperty('left');
 
-//console.log(before);
 
 
 var ButtonBefore = document.querySelector(".button--before"); //находим кнопку before

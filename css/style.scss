@@ -4,11 +4,6 @@ $tablet-width: 768px;
 $desktop-width: 1300px;
 $mobile-width-only: 767px;
 
-html,
-body {
-  height: 100%;
-}
-
 img {
   // width: 100%;
   height: auto;
@@ -391,7 +386,7 @@ img {
   }
 }
 
-.promo-icon {
+.promo__icon {
   @media (max-width: $mobile-width-only) {
     position: static; //mobile
     display: block;
@@ -939,7 +934,7 @@ legend,
   }
 }
 
-.slider__image-wrapper {
+.slider__wrapper {
   position: relative;
   width: 311px;
   height: 232px;
@@ -1295,21 +1290,12 @@ legend,
   }
 }
 
-.social-list__icon {
+.footer__icon {
   fill: #666;
   &:hover, //измен цвета при наведении 
  &:active {
     fill: #68b738;
   }
-}
-
-.page-footer__title {
-  font-family: Arial;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 18px;
-  color: #444444, 100%;
 }
 
 .develop__link {
