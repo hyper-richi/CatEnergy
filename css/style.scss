@@ -107,7 +107,7 @@ img {
 .wrapper {
   margin: 0 auto;
   max-width: 1440px;
-} 
+}
 
 .header {
   //.header__container
@@ -115,7 +115,7 @@ img {
   // height: 696px;
   @media (min-width: $desktop-width) {
     margin: 0 auto;
-    background-image: url("/img/index-background-desktop@1x.jpg");
+    background-image: url("CatEnergy/img/index-background-desktop@1x.jpg");
     background-repeat: no-repeat;
     background-position: right; /* позиционир справа */
     background-size: contain;
@@ -146,7 +146,7 @@ img {
   margin-left: 20px;
 
   @media (min-width: $desktop-width) {
-  margin-left: 0px;
+    margin-left: 0px;
   }
 }
 
@@ -1055,7 +1055,7 @@ legend,
 .demo__range {
   display: none;
   @media (min-width: $tablet-width) {
-    display: block;    
+    display: block;
     appearance: none;
     width: 100%;
     height: 6px;
@@ -1069,7 +1069,7 @@ legend,
 
 .demo__range::-webkit-slider-thumb {
   -webkit-appearance: none;
-  appearance: none;  
+  appearance: none;
   position: relative;
   z-index: 1;
   width: 35px;
@@ -1081,17 +1081,15 @@ legend,
   background-color: #fff;
 }
 
-
 .demo__range::-webkit-slider-thumb:focus,
 .demo__range::-webkit-slider-thumb:hover {
   -webkit-box-shadow: 0 5px 5px 0 #d6d6d6;
   box-shadow: 0 5px 5px 0 #d6d6d6;
-  
 }
 
- .demo__range::-webkit-slider-thumb:active {
- border-color: #68b738;
-} 
+.demo__range::-webkit-slider-thumb:active {
+  border-color: #68b738;
+}
 //-----------------------------------
 
 .invitation__map {
