@@ -15,7 +15,7 @@ ymaps.ready(init); // карта соберется после загрузки 
 	        myPlacemark0 = new ymaps.Placemark([59.938635, 30.323118], { // Создаем метку с такими координатами и суем в переменную
 	                balloonContent: '<div class="ballon"><img src="img/hh.jpg" class="ll"/><span>Заголовок метки 1</span><br/><p>Немного инфы о том, о сем. Лорем ипсум чото там.</p><img class="close" onclick="myMap.balloon.close()" src="img/close.png"/></div>' // сдесь содержимое балуна в формате html, все стили в css
 	            	}, {
-	            	iconImageHref: '/img/map-pin.png', // картинка иконки
+	            	iconImageHref: 'img/map-pin.png', // картинка иконки
 	            	iconImageSize: [60, 60], // размер иконки
 	            	iconImageOffset: [-32, -64], // позиция иконки
 	               /*  balloonContentSize: [270, 99], // размер нашего кастомного балуна в пикселях
