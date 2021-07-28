@@ -988,6 +988,7 @@ td {
   @media (min-width: $desktop-width) {
     display: flex;
     justify-content: space-between;
+    width: 100%;
   }
 }
 
@@ -1011,7 +1012,7 @@ td {
   }
   @media (min-width: $desktop-width) {
     margin: 0;
-    //min-width: 324px;
+    min-width: 324px;
   }
 }
 
