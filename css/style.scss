@@ -127,17 +127,19 @@ img {
   color: #000000;
 }
 
-.header {
-  .header__box {
-    @media (min-width: $desktop-width) {
-      // от   1300px и больше
-      margin: 0 auto;
-      background-image: url("../img/index-background-desktop@1x.jpg");
-      background-repeat: no-repeat;
-      background-position: right; /* позиционир справа */
-      background-size: contain;
-      background-size: 720px 100%;
-    }
+/* .header {
+
+} */
+
+.header__box {
+  @media (min-width: $desktop-width) {
+    // от   1300px и больше
+    margin: 0 auto;
+    background-image: url("../img/index-background-desktop@1x.jpg");
+    background-repeat: no-repeat;
+    background-position: right; /* позиционир справа */
+    background-size: contain;
+    background-size: 720px 100%;
   }
 }
 
