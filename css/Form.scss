@@ -25,6 +25,8 @@ html {
 
 body {
   height: 100vh;
+  min-width: 320px;
+
   font-family: "Oswald";
   font-style: normal;
   font-weight: normal;
@@ -137,7 +139,6 @@ input {
 .wrapper {
   margin: 0 auto;
   max-width: 1440px;
-  //min-width: 390px;
   color: #000000;
 }
 
